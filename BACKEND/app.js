@@ -15,7 +15,7 @@ const app = express();
 
 app.use(
     cors({
-        origin: process.env.FRONTEND_URL || "https://quick-link-lake.vercel.app/",
+        origin: process.env.FRONTEND_URL || "https://quick-link-lake.vercel.app",
         credentials: true,
     })
 );
