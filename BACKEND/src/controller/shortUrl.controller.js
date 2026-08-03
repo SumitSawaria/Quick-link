@@ -18,7 +18,7 @@ export const createShortUrl = wrapAsync(async (req, res) => {
 
     res.status(200).json({
         success: true,
-        shortUrl: process.env.APP_URL + shortUrl,
+        shortUrl: `${process.env.APP_URL}/${shortUrl}`,
     });
 });
 
@@ -30,7 +30,7 @@ export const createCustomShortUrl = wrapAsync(async (req, res) => {
 
     res.status(200).json({
         success: true,
-        shortUrl: process.env.APP_URL + shortUrl,
+        shortUrl: `${process.env.APP_URL}/${shortUrl}`,
     });
 });
 
