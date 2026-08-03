@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:shorturl",
+      "destination": "https://quick-link-g8rr.onrender.com/:shorturl"
+    }
+  ]
+}
